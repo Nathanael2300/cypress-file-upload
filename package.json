@@ -1,0 +1,25 @@
+{
+  "name": "cypress-file-upload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nathanael2300/cypress-file-upload.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Nathanael2300/cypress-file-upload/issues"
+  },
+  "homepage": "https://github.com/Nathanael2300/cypress-file-upload#readme",
+  "devDependencies": {
+    "cypress": "^15.8.1",
+    "cypress-mochawesome-reporter": "^4.0.2"
+  }
+}

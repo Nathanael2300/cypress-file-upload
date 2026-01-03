@@ -1,8 +1,8 @@
 import "cypress-mochawesome-reporter/register";
 
-describe("template spec", () => {
+describe("file-upload", () => {
   beforeEach(() => cy.visit("/"));
-  it("passes", () => {
+  it("Should upload a file and show one mensage 'File Uploaded!'", () => {
     cy.get('[data-testid="file-input"]').selectFile(
       "cypress/fixtures/text(test).txt"
     );
